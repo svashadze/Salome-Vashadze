@@ -1,6 +1,7 @@
-*{
-    margin-top: 0;
+* {
+    box-sizing: border-box;
 }
+
 body{
     width: 100%;
     background-image: url(image3/cover-2.jpg);
@@ -69,17 +70,24 @@ body{
   
 
 }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+}
+
 label{
     display: block;
     font-weight: bolder;
-    padding-top: 15px;
 }
 .GENDER{
     display: inline-block;
     box-sizing: border-box;
 }
 .form1{
-    padding-left: 70px;
-    padding-bottom: 20px;
+    padding: 15px;
 }
 

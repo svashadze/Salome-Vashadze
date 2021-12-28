@@ -1,61 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="styles3.css">
     <title>new project</title>
 </head>
+
 <body>
-<div class="main">
-    <div class="nav1">
-        <img class="logo" src="./image3/tree-solid.svg" alt="logo">
+    <div class="main">
+        <div class="nav1">
+            <img class="logo" src="./image3/tree-solid.svg" alt="logo">
+        </div>
+        <div class="menu">
+            <nav class="nav1">
+                <a class="a1" href="#">HOME</a>
+                <a class="a1" href="#">ABOUT</a>
+                <a class="a1" href="#">SERVICE</a>
+                <a class="a1" href="#">DESING</a>
+            </nav>
+        </div>
+        <div class="menu">
+            <nav class="nav1">
+                <a class="a1" href="#">SIGN IN</a>
+                <a class="a1" href="#">JOIN</a>
+                <a class="a1" href="#">HELP</a>
+            </nav>
+        </div>
+
     </div>
-    <div class="menu">
-        <nav class="nav1">
-            <a class="a1" href="#">HOME</a>
-            <a class="a1" href="#">ABOUT</a>
-            <a class="a1" href="#">SERVICE</a>
-            <a class="a1" href="#">DESING</a>
-        </nav>
+    <div class="b1">
+        <div class="b2-1">
+            <form class="form1">
+                <div class="form-group">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="name">
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="surname">
+                </div>
+                <div class="form-group">
+                    <label for="email">mail:</label>
+                    <input type="email" id="email" name="email" placeholder="email">
+                </div>
+                <div class="form-group">
+                    <label for="password">password:</label>
+                    <input type="password" id="password" name="password" placeholder="password">
+                </div>
+                <div class="form-group">
+                    <label for="password"> repeat password:</label>
+                    <input type="password" id="password" name="password" placeholder="repeat password">
+                </div>
+                <div class="form-group">
+                    <div>choose gender</div>
+                    <select class="GENDER">
+                        <option value="male">male</option>
+                        <option value="famale">famale</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Birthday</label>
+                    <input type="date" id="date" name="date" placeholder="birthday">
+                </div>
+                <div class="form-group">
+                    <label for="photo">Select photo:</label>
+                    <input type="file" id="photo" name="photo" multiple>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </div>
-    <div class="menu">
-        <nav class="nav1">
-            <a class="a1" href="#">SIGN IN</a>
-            <a class="a1" href="#">JOIN</a>
-            <a class="a1" href="#">HELP</a>
-        </nav>
-    </div>
-    
-</div>
-<div class="b1">
-    <div class="b2-1" >
-    <form class="form1">
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" placeholder="name"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" placeholder="surname">
-      <label for="email">mail:</label><br>
-      <input type="email" id="email" name="email" placeholder="email">
-      <label for="password">password:</label><br>
-      <input type="password" id="password" name="password" placeholder="password">
-      <label for="password"> repeat password:</label><br>
-      <input type="password" id="password" name="password" placeholder="repeat password">
-      <label for="GENDER"> GENDER</label><br>
-      <input type="checkbox" id="GENDER" name="GENDER" placeholder="GENDER">
-      <section class="GENDER">
-          <option value="GENDER">male</option>   
-      </section>
-      <input type="checkbox" id="GENDER" name="GENDER" placeholder="GENDER">
-      <section class="GENDER">
-          <option value="GENDER">female</option>   
-      </section>
-      <label for="date">Birthday</label><br>
-      <input type="date" id="date" name="date" placeholder="birthday">
-      <label for="photo">Select photo:</label>
-      <input type="file" id="photo" name="photo" multiple><br><br>
-      <input type="submit" value="Submit">
-    </form>
-    </div>
-</div>
-    
+
 </body>
+
 </html>

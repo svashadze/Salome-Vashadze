@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height:100vh;
+    background-image:url(./kakheti/cover1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main{
+    width: 100%;
+    height: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.logo1{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+ul li a{
+    color: white;
+    font-size: larger;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    text-shadow: red;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;  
+}
+.desc{
+    width: 50%;
+    height: 600px;
+    color:whitesmoke;
+    align-items: center;
+    margin-top:400px;
+    font-size: medium;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+H1{
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding: 5px;
+}
+p{
+    padding: 5px;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    gap: 35px;
+    margin-top: 200px; 
+    transition-duration: 0.5;
+    
+}
+.ph1{
+    border:10px;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+}
+.ph1:hover{
+    transform:translateY(-25px)
+}
